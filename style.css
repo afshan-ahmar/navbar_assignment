@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #f7e4e4;
+    color: #f60a0a;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-link {
+    color: #fa0505;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s ease;
+}
+
+.nav-link:hover {
+    background-color: #c2f609;
+}
+
+.download-cv {
+    background-color: #0abbfc;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-cv:hover {
+    background-color: #3e8e41;
+}
+
